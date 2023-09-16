@@ -1,10 +1,11 @@
 
 import './App.css';
+import { MisRutas } from './rutas/MisRutas';
 
 function App() {
   return (
-    <div className="App">
-      g
+    <div className='layout'>
+      <MisRutas/>
     </div>
   );
 }
