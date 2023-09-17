@@ -1,9 +1,9 @@
 import React from 'react'
-import {Routes, Route, NavLink, BrowserRouter} from 'react-router-dom';
+import {Routes, Route,  BrowserRouter} from 'react-router-dom';
 import { Inicio } from '../components/Inicio';
 import { Portafolio } from '../components/Portafolio';
-import { Servicios } from '../components/Servicios';
 import { Curriculum } from '../components/Curriculum';
+import { Technologies } from '../components/Technologies';
 import { Contacto } from '../components/Contacto';
 import { Header } from '../components/layout/Header';
 import { Footer } from '../components/layout/Footer';
@@ -23,11 +23,11 @@ export const MisRutas = () => {
               <Route path='/' element={<Inicio/>}/>
               <Route path='/inicio' element={<Inicio/>}/>
               <Route path='/portafolio' element={<Portafolio/>}/>
-              <Route path='/servicios' element={<Servicios/>}/>
+              <Route path='/technologies' element={<Technologies/>}/>
               <Route path='/curriculum' element={<Curriculum/>}/>
               <Route path='/contacto' element={<Contacto/>}/>
           </Routes>
-          
+
         </section>
         
 

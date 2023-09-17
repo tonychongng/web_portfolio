@@ -100,3 +100,39 @@ body {
 .content {
   min-height: 400px;
 }
+
+/*INICIO*/
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.salute {
+  font-size: 60px;
+  line-height: 130px;
+}
+
+.salute span {
+  color: #fa4529;
+  flex-basis: 50%;
+}
+
+.about-me {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.about-me h2{
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.about-me p {
+  color: #fa4529;
+  font-size: 20px;
+  margin: 0;
+  font-style: italic;
+}
+
