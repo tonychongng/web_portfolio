@@ -140,7 +140,7 @@ body {
 .contacto-layout {
   display: flex;
   flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando no caben en una fila */
-  justify-content: center; /* Centra los elementos horizontalmente */
+  
 }
 .contacto-layout h2 {
   width: 100%;
