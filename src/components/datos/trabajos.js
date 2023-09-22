@@ -7,6 +7,8 @@ export const trabajos = [
         'id': moviehub,
         'nombre': 'Movie Hub',
         'url': 'https://tonychongng.github.io/moviehub/',
+        'code': 'https://github.com/tonychongng/moviehub',
+        'demo': 'https://tonychongng.github.io/moviehub/',
         'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web',
         'descripcion': 'lorem ipsus olakese'
@@ -17,6 +19,8 @@ export const trabajos = [
         'nombre': 'To-do List',
         'url': 'https://tonychongng.github.io/todo_app/',
         'tecnologias': 'HTML, CSS, JS, REACT',
+        'code': 'https://github.com/tonychongng/todo_app',
+        'demo': 'https://tonychongng.github.io/todo_app/',
         'categorias': 'Desarrollo Web',
         'descripcion': 'lorem ipsus olakese'
     },
@@ -25,6 +29,8 @@ export const trabajos = [
         'id': starbucksclone,
         'nombre': 'Starbucks Clone',
         'url': 'https://tonychongng.github.io/Starbucks-Clone/',
+        'code': 'https://github.com/tonychongng/Starbucks-Clone',
+        'demo': 'https://tonychongng.github.io/Starbucks-Clone/',
         'tecnologias': 'HTML, CSS, JS',
         'categorias': 'Desarrollo Web',
         'descripcion': 'lorem ipsus olakese'

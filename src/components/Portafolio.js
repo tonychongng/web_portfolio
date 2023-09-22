@@ -15,8 +15,13 @@ export const Portafolio = () => {
                   <img src={trabajo.id} alt='hola' />
                 </div>
                 
-                <span>{trabajo.categorias}</span>
-                <h2><Link to={trabajo.url} target='__blank'>{trabajo.nombre}</Link></h2>
+                <span>{trabajo.nombre}</span>
+
+                <div className='demo-code'>
+                  <a href={trabajo.demo} target='__blank'><p>Demo→</p></a>
+                  <a href={trabajo.code} target='__blank'><p>Code→</p></a>
+                </div>
+
                 <h3>{trabajo.tecnologias}</h3>
               </article>
             );
