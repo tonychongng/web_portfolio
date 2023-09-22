@@ -6,6 +6,8 @@ export const Portafolio = () => {
 
   return (
     <div>
+      <h1 className='portfolio-title'>Some of my <span>Projects</span></h1>
+
       <section className='works'>
         {
           trabajos.map( trabajo => {
