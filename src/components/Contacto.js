@@ -1,5 +1,9 @@
 import React from 'react'
 import { MapaContacto } from './MapaContacto';
+import github from '../images/github.png';
+import instagram from '../images/instagram.png';
+import linkedin from '../images/linkedin.png';
+
 
 export const Contacto = () => {
   return (
@@ -25,6 +29,13 @@ export const Contacto = () => {
 
           <input type='submit' value="Send Message!"/>
         </form>
+      </div>
+
+      <div className='redes-sociales'>
+
+      <a href='https://github.com/tonychongng'><img src={github} alt='github'></img></a>
+      <a href='https://www.linkedin.com/in/chong-ng-tony'><img src={linkedin} alt='linkedin'></img></a>
+      <a href='https://www.instagram.com/to.ny_ng/'><img src={instagram} alt='instagram'></img></a>
       </div>
       
     </div>
