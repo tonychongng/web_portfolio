@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.typewriter{
+  color: #fa4529;
+  font-size: 18px;
+}
 
 .layout {
   width: 80%;
@@ -320,3 +324,36 @@ textarea{
 .demo-code p:hover {
   transform: scale(1.1, 1.1);
 }
+
+.tech-object {
+  display: flex;
+}
+
+.technologies div h2{
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+
+.technology-item {
+  background-color: #7a7979;
+  border-radius: 30px;
+  width: 20%;
+  display: flex;
+}
+
+.technology-item .tech-description h3,
+.technology-item .tech-description p
+{
+  margin: 0;
+  padding: 0;
+}
+
+.technology-item img {
+  margin-left: 10px;
+}
+
+.tech-description {
+  margin-left: 15px;
+}
+
