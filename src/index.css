@@ -327,6 +327,7 @@ textarea{
 
 .tech-object {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .technologies div h2{
@@ -336,10 +337,22 @@ textarea{
 }
 
 .technology-item {
-  background-color: #7a7979;
-  border-radius: 30px;
+  border: 1px solid #7a7979;
+  border-radius: 10px;
+  background-color: #8985a8;
+  padding: 20px;
   width: 20%;
   display: flex;
+  margin-left: 0;
+  margin-right: 30px;
+  box-shadow: 10px 5px 5px #7a7979;
+  animation: transform 0.3s;
+}
+
+.technology-item:hover {
+  box-shadow: 13px 7px 7px #7a7979;
+  transform: scale(1.03);
+  
 }
 
 .technology-item .tech-description h3,
@@ -356,4 +369,5 @@ textarea{
 .tech-description {
   margin-left: 15px;
 }
+
 

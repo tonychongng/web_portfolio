@@ -17,7 +17,7 @@ export const Technologies = () => {
             frontEnd.map(tech => {
               return (
                 <div key={tech.id} className='technology-item'>
-                  <img src={tech.url} alt={tech.name} width="30px"/>
+                  <img src={tech.url} alt={tech.name} width="45px"/>
                   <div className='tech-description'>
                     <h3>{tech.name}</h3>
                     <p>{tech.function}</p>
@@ -39,7 +39,7 @@ export const Technologies = () => {
             backEnd.map(tech => {
               return (
                 <div key={tech.id} className='technology-item'>
-                  <img src={tech.url} alt={tech.name} width="30px"/>
+                  <img src={tech.url} alt={tech.name} width="45px"/>
                   <div className='tech-description'>
                     <h3>{tech.name}</h3>
                     <p>{tech.function}</p>
@@ -61,7 +61,7 @@ export const Technologies = () => {
             extras.map(tech => {
               return (
                 <div key={tech.id} className='technology-item'>
-                  <img src={tech.url} alt={tech.name} width="30px"/>
+                  <img src={tech.url} alt={tech.name} width="45px"/>
                   <div className='tech-description'>
                     <h3>{tech.name}</h3>
                     <p>{tech.function}</p>
