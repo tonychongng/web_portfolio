@@ -46,5 +46,16 @@ export const trabajos = [
         'tecnologias': 'HTML, CSS, JS',
         'categorias': 'Web Development',
         'descripcion': 'lorem ipsus olakese'
+    },
+
+    {
+        'id': mcunextmovie,
+        'nombre': 'Next MCU movie',
+        'url': 'https://nextmarvelmovie.zeabur.app/',
+        'code': 'https://nextmarvelmovie.zeabur.app/',
+        'demo': 'https://nextmarvelmovie.zeabur.app/',
+        'tecnologias': 'PHP',
+        'categorias': 'Web Development',
+        'descripcion': 'lorem ipsus olakese'
     }
 ];
